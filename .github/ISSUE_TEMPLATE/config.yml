@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support page
+    url: https://chrismahlke.github.io/meridian/support/
+    about: Answers to common questions, and what Meridian needs.
+  - name: Privacy policy
+    url: https://chrismahlke.github.io/meridian/privacy/
+    about: What Meridian sends, to whom, and why.

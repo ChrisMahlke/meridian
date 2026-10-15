@@ -1,0 +1,13 @@
+name: Ask a question
+description: About using Meridian, or about its privacy policy.
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: The [Support page](https://chrismahlke.github.io/meridian/support/) may already have the answer. Issues are public, so leave out anything you'd rather not share.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true

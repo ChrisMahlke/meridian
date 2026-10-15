@@ -1,0 +1,11 @@
+name: Suggest something
+description: An idea for Meridian, or something it could do better.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Meridian to do?
+      description: And what it would help you with.
+    validations:
+      required: true
