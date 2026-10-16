@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#111113" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f6f6f7" media="(prefers-color-scheme: light)">
+  <title>Meridian</title>
+  <meta name="description" content="The sun, the moon, your heading, and the time, on one quiet dial, for iPhone, iPad, and Apple Watch.">
+  <meta property="og:title" content="Meridian">
+  <meta property="og:description" content="The sun, the moon, your heading, and the time, on one quiet dial, for iPhone, iPad, and Apple Watch.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://chrismahlke.github.io/meridian/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:wght@100..900&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="icon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <script src="theme.js"></script>
+  <script src="gallery.js" defer></script>
+</head>
+<body>
+  <div class="guides" aria-hidden="true"></div>
+
+  <header class="top">
+    <div class="top-inner">
+      <a class="brand" href="./"><img src="icon.png" alt="">meridian</a>
+      <div class="top-actions">
+        <nav aria-label="Pages">
+          <a href="./" aria-current="page">About</a>
+          <a href="support/">Support</a>
+          <a href="privacy/">Privacy</a>
+          <a href="license/">License</a>
+        </nav>
+        <button class="theme" type="button" aria-label="Switch theme">
+          <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5V5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></svg>
+          <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 01: the opening -->
+    <section class="hero">
+      <div class="marker" aria-hidden="true">
+        <div class="count"><b>01</b><span>/ 04</span></div>
+        <div class="vertical">Sky dial // iOS · iPadOS · watchOS</div>
+        <div class="year">2026</div>
+      </div>
+
+      <div class="hero-body">
+        <div class="hero-meta">
+          <div><b>Sun &amp; Moon</b><span>·</span><span>Heading</span><span>·</span><span>Time</span></div>
+          <div class="aside"><span>Altitude / Azimuth</span><span>·</span><span>True north</span></div>
+        </div>
+
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <div class="hero-id">
+              <img src="icon.png" width="96" height="96" alt="Meridian's icon">
+              <div>
+                <span class="store">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 18h18M7 18a5 5 0 0 1 10 0M12 4v6M9.5 6.5L12 4l2.5 2.5"/></svg>
+                  Coming to the App Store
+                </span>
+                <div class="platforms-line">iOS · iPadOS · watchOS</div>
+              </div>
+            </div>
+
+            <h1>The whole sky,<br><span>on one quiet dial.</span></h1>
+
+            <p class="lede">The sun, the moon, your heading, and the time, on one quiet dial, for iPhone, iPad, and Apple Watch.</p>
+            <p class="sublede">The sun and moon sit at their real bearing and height on a compass that turns as you do. After dusk, the planets and brightest stars join them.</p>
+
+            <div class="actions">
+              <a class="button primary" href="#gallery">See it in action <span aria-hidden="true">↓</span></a>
+              <a class="button secondary" href="support/">Support <span aria-hidden="true">→</span></a>
+            </div>
+          </div>
+
+          <figure class="hero-shot">
+            <img src="screenshots/iphone/time.png" width="1320" height="2868" alt="The sky dial with the sun just up in the east and the moon high, and the time and date marked on bars of the day and the year">
+            <figcaption>
+              <div>
+                <div class="what">The sky, right now</div>
+                <div class="title">Sun and moon where they really are</div>
+              </div>
+              <div class="reading"><b>150°</b><span>Heading</span></div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02: what it is and does -->
+    <section class="section" id="about">
+      <p class="tag">02 // About Meridian</p>
+
+      <div class="about-grid">
+        <div>
+          <h2>A compass, a sundial,<br><span>and a moon chart in one.</span></h2>
+          <p>Meridian works out the sky on your device: where the sun and moon are, which way you're facing, and the time, on a dial that turns with you.</p>
+          <p class="small">No account, no ads, no tracking. It works offline, apart from searching for places and two features you choose to turn on.</p>
+        </div>
+
+        <div>
+          <h3>What it does:</h3>
+          <ol class="numbered">
+            <li>Turns as you do, with the sun and moon at their real bearing and height</li>
+            <li>Adds the planets and brightest stars after dusk</li>
+            <li>Spins through the day, or jumps to any date, like the next full moon or the longest day of the year</li>
+            <li>Raises the sky into a dome in 3D, or draws it over the camera in AR</li>
+            <li>Lays out sunrise, golden hour, sunset, and twilight, and reminds you before they come</li>
+            <li>Finds the days the sun and moon rise or set right down your street</li>
+            <li>Shows the sky over any place you save, in its own time zone</li>
+            <li>Answers at a glance with widgets, Apple Watch, and Siri: “When is sunset in Meridian?”</li>
+          </ol>
+        </div>
+
+        <div class="tile">
+          <div>
+            <h3 class="plain">Night mode:</h3>
+            <div class="frame">
+              <img src="screenshots/thumbs/iphone/night-mode.jpg" width="480" height="1043" loading="lazy" alt="The night sky in night mode, with the dial, stars, and lines all in deep red">
+            </div>
+            <p class="note">Everything turns deep red, so your eyes stay used to the dark while you stargaze.</p>
+          </div>
+          <div class="foot">Worked out on your device</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03: screenshots; gallery.js opens them at full size -->
+    <section class="section" id="gallery">
+      <div class="gallery-head">
+        <div>
+          <p class="tag">03 // Screenshots</p>
+          <h2>iPhone, iPad &amp; Apple Watch</h2>
+        </div>
+        <p>Select any screenshot to see it at full size.</p>
+      </div>
+
+      <h3 class="device">iPhone <span>· iOS 18 or later</span></h3>
+      <ul class="shots" data-size="1320 2868">
+        <li><a class="card" href="screenshots/iphone/time.png">
+          <span class="card-head"><b>01</b><span>Sky dial</span></span>
+          <span class="frame"><img src="screenshots/thumbs/iphone/time.jpg" width="480" height="1043" alt="The sky dial with the sun just up in the east and the moon high, and the time and date marked on bars of the day and the year"></span>
+          <span class="caption">The sky dial</span>
+          <span class="detail">Real bearing and height</span>
+        </a></li>
+        <li><a class="card" href="screenshots/iphone/dome.png">
+          <span class="card-head"><b>02</b><span>3D dome</span></span>
+          <span class="frame"><img src="screenshots/thumbs/iphone/dome.jpg" width="480" height="1043" alt="The sky raised into a dome in 3D, with the sun's and moon's paths"></span>
+          <span class="caption">In 3D</span>
+          <span class="detail">The sky as a dome</span>
+        </a></li>
+        <li><a class="card" href="screenshots/iphone/night.png">
+          <span class="card-head"><b>03</b><span>Night</span></span>
+          <span class="frame"><img src="screenshots/thumbs/iphone/night.jpg" width="480" height="1043" alt="The sky at night, with Jupiter, Mars, Saturn, and bright stars on the dial"></span>
+          <span class="caption">After dusk</span>
+          <span class="detail">Planets and bright stars</span>
+        </a></li>
+        <li><a class="card" href="screenshots/iphone/today.png">
+          <span class="card-head"><b>04</b><span>Today</span></span>
+          <span class="frame"><img src="screenshots/thumbs/iphone/today.jpg" width="480" height="1043" alt="The Today sheet: the sun's and moon's height through the day over a timeline from moonrise to astronomical dusk"></span>
+          <span class="caption">Today</span>
+          <span class="detail">Dawn to dusk at a glance</span>
+        </a></li>
+        <li><a class="card" href="screenshots/iphone/alignments.png">
+          <span class="card-head"><b>05</b><span>295° WNW</span></span>
+          <span class="frame"><img src="screenshots/thumbs/iphone/alignments.jpg" width="480" height="1043" loading="lazy" alt="Alignments facing 295 degrees: the moonsets and sunsets along that bearing"></span>
+          <span class="caption">Alignments</span>
+          <span class="detail">Sunsets down your street</span>
+        </a></li>
+        <li><a class="card" href="screenshots/iphone/moon-calendar.png">
+          <span class="card-head"><b>06</b><span>October 2026</span></span>
+          <span class="frame"><img src="screenshots/thumbs/iphone/moon-calendar.jpg" width="480" height="1043" loading="lazy" alt="The moon calendar for October 2026, with each night's phase at nine in the evening and the time of moonrise"></span>
+          <span class="caption">Moon calendar</span>
+          <span class="detail">Each night's phase</span>
+        </a></li>
+        <li><a class="card" href="screenshots/iphone/lock-screen.png">
+          <span class="card-head"><b>07</b><span>Widgets</span></span>
+          <span class="frame"><img src="screenshots/thumbs/iphone/lock-screen.jpg" width="480" height="1043" loading="lazy" alt="Meridian's widgets on the Lock Screen: sunset at 6:15 PM above the clock, and the sunset, the sun's progress, and the moon 17% lit below it"></span>
+          <span class="caption">Lock Screen</span>
+          <span class="detail">Sunset and moon widgets</span>
+        </a></li>
+        <li><a class="card" href="screenshots/iphone/words.png">
+          <span class="card-head"><b>08</b><span>300° WNW</span></span>
+          <span class="frame"><img src="screenshots/thumbs/iphone/words.jpg" width="480" height="1043" loading="lazy" alt="The heading spelled out in words: west north west, three hundred degrees clockwise from north"></span>
+          <span class="caption">In words</span>
+          <span class="detail">Every reading spelled out</span>
+        </a></li>
+      </ul>
+
+      <h3 class="device">iPad <span>· iPadOS 18 or later</span></h3>
+      <ul class="shots ipad" data-size="2064 2752">
+        <li><a class="card" href="screenshots/ipad/time.png">
+          <span class="card-head"><b>09</b><span>Sky dial</span></span>
+          <span class="frame"><img src="screenshots/thumbs/ipad/time.jpg" width="782" height="1043" loading="lazy" alt="The sky dial on iPad, with the sun and moon, and the time and date beneath"></span>
+          <span class="caption">The sky dial</span>
+          <span class="detail">Room to read every line</span>
+        </a></li>
+        <li><a class="card" href="screenshots/ipad/today.png">
+          <span class="card-head"><b>10</b><span>Timeline</span></span>
+          <span class="frame"><img src="screenshots/thumbs/ipad/today.jpg" width="782" height="1043" loading="lazy" alt="The Today sheet on iPad: the sun's and moon's height through the day, and the day's timeline"></span>
+          <span class="caption">Today</span>
+          <span class="detail">The day's light, laid out</span>
+        </a></li>
+        <li><a class="card" href="screenshots/ipad/home-screen.png">
+          <span class="card-head"><b>11</b><span>Home Screen</span></span>
+          <span class="frame"><img src="screenshots/thumbs/ipad/home-screen.jpg" width="782" height="1043" loading="lazy" alt="The Moon, Sun, and Sky dial widgets on the iPad Home Screen, with the time spelled out"></span>
+          <span class="caption">Widgets</span>
+          <span class="detail">Sun, Moon, and Sky dial</span>
+        </a></li>
+        <li><a class="card" href="screenshots/ipad/night-dome.png">
+          <span class="card-head"><b>12</b><span>3D · Night</span></span>
+          <span class="frame"><img src="screenshots/thumbs/ipad/night-dome.jpg" width="782" height="1043" loading="lazy" alt="The night sky in 3D on iPad, with the planets and bright stars on the dome"></span>
+          <span class="caption">Night sky in 3D</span>
+          <span class="detail">Planets on the dome</span>
+        </a></li>
+      </ul>
+
+      <h3 class="device">Apple Watch <span>· watchOS 11 or later</span></h3>
+      <ul class="shots watch" data-size="422 514">
+        <li><a class="card" href="screenshots/watch/dial.png">
+          <span class="card-head"><b>13</b><span>Sky dial</span></span>
+          <span class="frame"><img src="screenshots/thumbs/watch/dial.jpg" width="422" height="514" loading="lazy" alt="The sky dial on Apple Watch, with the time spelled out"></span>
+          <span class="caption">The dial</span>
+          <span class="detail">The time, spelled out</span>
+        </a></li>
+        <li><a class="card" href="screenshots/watch/sun.png">
+          <span class="card-head"><b>14</b><span>Sun</span></span>
+          <span class="frame"><img src="screenshots/thumbs/watch/sun.jpg" width="422" height="514" loading="lazy" alt="The Sun page on Apple Watch: sunset at six fifteen, with the sun fourteen degrees up"></span>
+          <span class="caption">Sunset</span>
+          <span class="detail">Six fifteen, 14° up</span>
+        </a></li>
+        <li><a class="card" href="screenshots/watch/moon.png">
+          <span class="card-head"><b>15</b><span>Moon</span></span>
+          <span class="frame"><img src="screenshots/thumbs/watch/moon.jpg" width="422" height="514" loading="lazy" alt="The Moon page on Apple Watch: a waning crescent, 17% lit, setting at three fifty-four"></span>
+          <span class="caption">The moon</span>
+          <span class="detail">Waning crescent, 17% lit</span>
+        </a></li>
+        <li><div class="card info">
+          <span class="card-head"><b>16</b><span>On your wrist</span></span>
+          <span class="frame">
+            <strong>Works on its own</strong>
+            <p>Turn the Digital Crown to move through time, and tap to come back to now. No iPhone needed nearby.</p>
+          </span>
+          <span class="caption">Apple Watch</span>
+          <span class="detail">Dial, Sun, and Moon</span>
+        </div></li>
+      </ul>
+    </section>
+
+    <dialog class="viewer" aria-label="Screenshot" tabindex="-1">
+      <div class="viewer-body">
+        <div class="viewer-bar upper">
+          <div><span class="viewer-title"></span><span class="viewer-count"></span></div>
+          <button class="close" type="button">Close ✕</button>
+        </div>
+        <div class="viewer-frame"><img alt=""></div>
+        <div class="viewer-bar lower">
+          <button class="step" type="button" data-step="-1" aria-label="Previous screenshot">← Prev</button>
+          <span class="viewer-detail"></span>
+          <button class="step" type="button" data-step="1" aria-label="Next screenshot">Next →</button>
+        </div>
+      </div>
+    </dialog>
+
+    <!-- 04: devices and language -->
+    <section class="section last">
+      <p class="tag">04 // Platforms &amp; Language</p>
+
+      <div class="split">
+        <div>
+          <h3>Supported devices</h3>
+          <ul class="panels">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M11 18.5h2"/></svg>
+              <div><strong>iPhone</strong><small>iOS 18 or later</small></div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2.5" width="16" height="19" rx="2"/><path d="M11 18.5h2"/></svg>
+              <div><strong>iPad</strong><small>iPadOS 18 or later, in portrait or landscape</small></div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6.5" y="6" width="11" height="12" rx="3"/><path d="M9 6V2.5h6V6M9 18v3.5h6V18"/></svg>
+              <div><strong>Apple Watch</strong><small>watchOS 11 or later, with or without your iPhone nearby</small></div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8.2-7 10-4-1.8-7-5.5-7-10V6z"/><path d="M9 12l2 2 4-4"/></svg>
+              <div><strong>No account, no ads, no tracking</strong><small>The sky is worked out on your device. <a href="privacy/">Privacy policy</a></small></div>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Language</h3>
+          <ul class="languages">
+            <li><span class="flag" aria-hidden="true">🇺🇸</span><span lang="en">English</span></li>
+          </ul>
+          <p class="note">Meridian is in English, whatever your device's language. Times, dates, and numbers follow your region.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="who"><b>meridian</b><span>·</span><span>© 2026 M10 LLC</span></div>
+      <nav aria-label="Footer">
+        <a href="./">About</a>
+        <a href="support/">Support</a>
+        <a href="privacy/">Privacy</a>
+        <a href="license/">License</a>
+      </nav>
+    </footer>
+  </main>
+</body>
+</html>

@@ -12,9 +12,9 @@ The [Support page](https://chrismahlke.github.io/meridian/support/) answers comm
 
 ## Open an issue
 
-- [Report a problem](https://github.com/ChrisMahlke/meridian-support/issues/new?template=report-a-problem.yml)
-- [Suggest something](https://github.com/ChrisMahlke/meridian-support/issues/new?template=suggest-something.yml)
-- [Ask a question](https://github.com/ChrisMahlke/meridian-support/issues/new?template=ask-a-question.yml)
+- [Report a problem](https://github.com/ChrisMahlke/meridian/issues/new?template=report-a-problem.yml)
+- [Suggest something](https://github.com/ChrisMahlke/meridian/issues/new?template=suggest-something.yml)
+- [Ask a question](https://github.com/ChrisMahlke/meridian/issues/new?template=ask-a-question.yml)
 
 You'll need a free GitHub account. Or email [cmahlke@gmail.com](mailto:cmahlke@gmail.com). I read everything.
 
